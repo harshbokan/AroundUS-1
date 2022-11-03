@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import Bg_1 from "../images/bg_1.jpg"
+
 
 const Wrapper = styled.main`
     display: flex;
@@ -6,6 +8,9 @@ const Wrapper = styled.main`
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
+    background-image: url(https://images.unsplash.com/photo-1518710920008-43f70d20e48a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80);
+    background-position: center;
+    height: 100vh;
 
     .logo{
         padding: 2px;
@@ -46,6 +51,7 @@ const Wrapper = styled.main`
   .search{
       align-items: center;
       text-align: center;
+      ${'' /* margin-top: 50px; */}
       /* background-color: orange; */
       border-width: 3px;
   border-style: solid;

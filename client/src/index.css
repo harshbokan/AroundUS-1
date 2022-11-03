@@ -28,6 +28,14 @@ code {
 .right {
   justify-content: center;
   flex: 2;
-  background-color: green;
+  /* background-color: green; */
   height: 100vh;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
