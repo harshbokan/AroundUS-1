@@ -10,6 +10,8 @@ const Wrapper = styled.main`
     margin-bottom: 0.5rem;
     text-transform: capitalize;
     letter-spacing: 1px;
+    color: white;
+    margin-top:1.5rem;
   }
 .input,
 .textarea,
@@ -19,6 +21,15 @@ const Wrapper = styled.main`
   border-radius: 0.25rem;
   background: #f0f4f8;
   border: 1px solid #bcccdc;
+
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
 }
 .input,
 .-select,

@@ -5,7 +5,8 @@ const LeftBar = () => {
     return (
         <Wrapper>
             <div className="logo">
-                <img src={Logo} alt="Logo"></img>
+                {/* <img src={Logo} alt="Logo"></img> */}
+                <h2>Around US</h2>
             </div>
 
             <div className="search">
